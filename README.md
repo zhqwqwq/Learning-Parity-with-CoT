@@ -28,7 +28,7 @@ To generate synthetic parity data, first create a configuration file `data_confi
 - `n_secret`: Number of secret variables.
 - `use_cot`: Set to `True` to use Chain-of-Thought (CoT) data.
 
-After defining your configuration, generate the data by running:
+After defining the configuration, generate the data by running:
 
 ```bash
 python src/generate_data.py --config path-to-data_config.py
@@ -178,7 +178,7 @@ To reproduce the results shown in Figures 1 and 2 of our paper, follow these ste
 | $10^7$                 | $10^4,10^5,10^6$ | $20$     | $12$ | True | $1,2,3,4,6,8$ | $1,2,3,4,6,8$ | $6\times10^{-5}, 8\times10^{-5},1\times10^{-4}$  |
 | $10^7$                 | $10^4,10^6$      | $20$     | $12$ | True | $1$           | $1$           | $6\times10^{-5},8\times 10 ^{-5},1\times10^{-4}$ |
 
-3. To reproduce Figure 9, run `Figures/Fig5/fig9.py`.
+3. To reproduce Figure 9, run `Figures/Fig9/fig9.py`.
 
 ### Figure 6,7
 
