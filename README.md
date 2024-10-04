@@ -82,7 +82,7 @@ Where:
 
 Training results will be saved in the `model/` directory.
 
-## Reproduce the Results
+## Reproducing the Results
 
 ### Figure 1, 2
 
